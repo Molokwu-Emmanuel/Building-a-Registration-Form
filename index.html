@@ -11,13 +11,14 @@
     <form action="https://register-demo.freecodecamp.org" method="post">
         <!-- Each fielset is like a section of the form -->
         <fieldset>
-            <label for="first-name">Enter Your Firstname: <input type="text" id="first-name"></label>
-            <label for="last-name">Enter Your Lastname: <input type="text" id="last-name"></label>
-            <label for="email">Enter Your email: <input type="email" id="email"></label>
-            <label for="new-password">Create a New Password: <input type="password" id="new-password"></label>
+            <label for="first-name">Enter Your Firstname: <input type="text" id="first-name" required></label>
+            <label for="last-name">Enter Your Lastname: <input type="text" id="last-name" required></label>
+            <label for="email">Enter Your email: <input type="email" id="email" required></label>
+            <label for="new-password">Create a New Password: <input type="password" id="new-password" required></label>
         </fieldset>
         <fieldset></fieldset>
         <fieldset></fieldset>
+        <input type="submit" value="Submit">
     </form>
 </body>  
 </html>
