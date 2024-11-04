@@ -15,3 +15,25 @@ h1, p {
     text-align: center;
     margin: 1em auto;
 }
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+fieldset:last-of-type {
+    border-bottom: none;
+}
+label {
+    display: block;
+}
+input, textarea, select {
+    width: 100%;
+    margin: 10px 0 0 0;
+}
